@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjNumba</string>
+    <string name="hello">hello</string>
+    <string name="weapon_types">WeaponTypes</string>
+    <string name="equipment_types">equipment_types</string>
+</resources>
