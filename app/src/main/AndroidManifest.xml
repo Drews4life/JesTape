@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.drews.projnumba">
 
     <application
@@ -18,7 +19,10 @@
         </activity>
         <activity android:name=".CalendarProj" />
         <activity android:name=".Weaponry" />
-        <activity android:name=".Equipment"></activity>
+        <activity android:name=".Equipment" />
+        <activity android:name=".WeaponDetails" />
+        <activity android:name=".EquipDetails" />
+        <activity android:name=".TweetsMenu"></activity>
     </application>
 
 </manifest>
