@@ -9,22 +9,11 @@
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="190dp"
-        android:layout_height="480dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/imageView23"
+        android:layout_centerHorizontal="true"
         tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="1dp" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="193dp"
-        android:layout_height="453dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        tools:layout_editor_absoluteX="191dp"
         tools:layout_editor_absoluteY="1dp" />
 
 </RelativeLayout>

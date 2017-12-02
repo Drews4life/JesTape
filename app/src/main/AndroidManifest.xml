@@ -22,7 +22,7 @@
         <activity android:name=".Equipment" />
         <activity android:name=".WeaponDetails" />
         <activity android:name=".EquipDetails" />
-        <activity android:name=".TweetsMenu"></activity>
+        <activity android:name=".Consumables"></activity>
     </application>
 
 </manifest>

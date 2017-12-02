@@ -3,4 +3,9 @@
     <string name="hello">hello</string>
     <string name="weapon_types">WeaponTypes</string>
     <string name="equipment_types">equipment_types</string>
+    <string name="_123">123</string>
+    <string name="_1234">1234</string>
+    <string name="_12345">12345</string>
+    <string name="_123456">123456</string>
+    <string name="_1234556">1234556</string>
 </resources>

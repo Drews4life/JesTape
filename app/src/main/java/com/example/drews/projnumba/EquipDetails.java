@@ -13,8 +13,5 @@ public class EquipDetails extends AppCompatActivity {
         int image22 = getIntent().getExtras().getInt("image22");
         ImageView imageView22 = (ImageView) findViewById(R.id.imageView21);
         imageView22.setImageResource(image22);
-        int image23 = getIntent().getExtras().getInt("image23");
-        ImageView imageView23 = (ImageView) findViewById(R.id.imageView23);
-        imageView23.setImageResource(image23);
     }
 }

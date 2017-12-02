@@ -22,10 +22,10 @@ public class Equipment extends AppCompatActivity {
         setContentView(R.layout.activity_equipment);
         listView1 = (ListView) findViewById(R.id.lvnotMain);
 
-        final String[] names = new String[] {"Backpacks","Backpack (Level 1)", "Backpack (Level 2)", "Backpack (Level 3)", "Motorcycle Helmet (Level 1)", "Military Helmet (Level 2)", "Spetsnaz Helmet (Level 3)",
+        final String[] names = new String[] {"Backpacks","Vests", "Helmets", "Belts", "Ghillie suit", "Military Helmet (Level 2)", "Spetsnaz Helmet (Level 3)",
                 "Police Vest (level 1)", "Police Vest (level 2)", "Military Vest (level 1)", "Backpack (level 1)", "Backpack (level 2)", "Backpack (level 3)"};
-        final int[] imageResources5 = new int[] {R.drawable.backpacks1};
-        final int[] imageResources6 = new int[] {R.drawable.backpacks2};
+        final int[] imageResources5 = new int[] {R.drawable.backpacks1, R.drawable.vests123, R.drawable.helmetslvl123};
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_2,android.R.id.text2, names);
@@ -34,7 +34,7 @@ public class Equipment extends AppCompatActivity {
         listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                startActivity(new Intent(Equipment.this, EquipDetails.class).putExtra("image22", imageResources5[position]).putExtra("image23", imageResources6[position]));
+                startActivity(new Intent(Equipment.this, EquipDetails.class).putExtra("image22", imageResources5[position]));
             }
         });
 

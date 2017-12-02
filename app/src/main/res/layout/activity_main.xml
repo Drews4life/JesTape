@@ -9,19 +9,18 @@
         android:id="@+id/buttonWeapon"
         android:layout_width="160dp"
         android:layout_height="48dp"
-        android:layout_alignBaseline="@+id/buttonEquipment"
-        android:layout_alignBottom="@+id/buttonEquipment"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="103dp"
         android:text="weaponry" />
 
     <Button
         android:id="@+id/buttonEquipment"
         android:layout_width="160dp"
         android:layout_height="48dp"
-        android:layout_above="@+id/buttonCal"
-        android:layout_marginBottom="35dp"
-        android:layout_toEndOf="@+id/buttonWeapon"
+        android:layout_alignStart="@+id/buttonWeapon"
+        android:layout_centerVertical="true"
         android:text="equipment" />
 
     <Button
@@ -29,8 +28,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/buttonWeapon"
-        android:layout_marginBottom="114dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="37dp"
         android:text="Latest news" />
+
+    <Button
+        android:id="@+id/buttonCons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonCal"
+        android:layout_alignStart="@+id/buttonEquipment"
+        android:layout_marginBottom="18dp"
+        android:text="Consumables" />
 
 </RelativeLayout>

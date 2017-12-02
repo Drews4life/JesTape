@@ -7,7 +7,7 @@ import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.app.AppCompatActivity;
 
 
-class CalendarProj extends AppCompatActivity {
+public class CalendarProj extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
