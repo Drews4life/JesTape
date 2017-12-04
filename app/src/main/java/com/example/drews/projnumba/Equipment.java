@@ -22,8 +22,7 @@ public class Equipment extends AppCompatActivity {
         setContentView(R.layout.activity_equipment);
         listView1 = (ListView) findViewById(R.id.lvnotMain);
 
-        final String[] names = new String[] {"Backpacks","Vests", "Helmets", "Belts", "Ghillie suit", "Military Helmet (Level 2)", "Spetsnaz Helmet (Level 3)",
-                "Police Vest (level 1)", "Police Vest (level 2)", "Military Vest (level 1)", "Backpack (level 1)", "Backpack (level 2)", "Backpack (level 3)"};
+        final String[] names = new String[] {"Backpacks","Vests", "Helmets"};
         final int[] imageResources5 = new int[] {R.drawable.backpacks1, R.drawable.vests123, R.drawable.helmetslvl123};
 
 
